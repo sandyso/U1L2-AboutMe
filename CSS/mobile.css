@@ -1,0 +1,89 @@
+@media only screen and (max-width: 500px){
+	body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i1164.photobucket.com/albums/q568/SOflixMix/background_zpsa3gvonfd.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #033342;
+
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open-Sans", "Helvetiva-Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.2em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 1em;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: -3px 3px 5px 6px #ccc;
+}
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+  text-shadow: 1px 1px 1px #000;
+  color: #033342;
+}
+
+.introduction-section,
+.location-section,
+.content-footer {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+   color: #50798D;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.content-footer {
+  background-color: #7AB1C2;
+}
+}
